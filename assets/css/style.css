@@ -9,6 +9,9 @@
 # General
 --------------------------------------------------------------*/
 
+
+
+
 html,
 body {
   max-width: 100%;
@@ -129,7 +132,7 @@ h6 {
   padding: 0;
   margin: 0;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: bold;
   color: #4a88a9;
   font-family: "Nunito", sans-serif;
 }
@@ -243,8 +246,8 @@ h6 {
   align-items: center;
   justify-content: space-between;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
   font-size: 14px;
   white-space: nowrap;
   transition: 0.3s;
@@ -455,6 +458,19 @@ h6 {
   overflow-y: hidden;
   position: relative;
 }
+
+@media screen and (max-width: 620px) {
+  #hero{
+   
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bannerDoc.png) top center;
+    background-size: 100% 100%;
+    overflow-y: hidden;
+    position: relative;
+  }
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -859,7 +875,7 @@ h6 {
 # Venue Section
 --------------------------------------------------------------*/
 #venue {
-  padding: 60px 0;
+  padding:0 0 60px;
 }
 #venue .container-fluid {
   margin-bottom: 3px;
@@ -1510,7 +1526,7 @@ Our Classes
   font-size: 19px;
   color: #004372;
   letter-spacing: 0.5px;
-  font-weight: 600;
+  font-weight: bold;
   transition: all 0.3s;
 }
 #tabs .main-rounded-button a {
@@ -1606,7 +1622,7 @@ Our Classes
   text-transform: uppercase;
   transition: all 0.3s;
   font-family: "Nunito", sans-serif;
-  font-weight: 800;
+  font-weight: bold;
   border-radius: 10px;
 }
 
@@ -1954,4 +1970,17 @@ Our Classes
 
 #tabs-1 h5 {
   margin: 10px 0;
+}
+
+
+@media screen and (max-width: 760px) {
+  .logoBan{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .center{
+    width: 100%;
+  }
 }
