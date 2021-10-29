@@ -2038,7 +2038,9 @@ Our Classes
 }
 
 @media screen and (max-width: 991px) {
-  #tabs-1 h5 {
+  #tabs-1 h5,
+  #tabs-2 h5,
+  #tabs-3 h5 {
     margin: 30px 0 15px;
   }
 }
