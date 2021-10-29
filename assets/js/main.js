@@ -272,6 +272,17 @@
       document.getElementById("demo").innerHTML = "EXPIRED";
     }
   }, 1000);
+
+  var displayWidth = screen.availWidth;
+
+  if (displayWidth <= 991) {
+    document.getElementById("speakerLarge").style.display = "none";
+    document.getElementById("speakerSmall").style.display = "block";
+  } else {
+    document.getElementById("speakerLarge").style.display = "block";
+    document.getElementById("speakerSmall").style.display = "none";
+  }
+  console.log(displayWidth);
 })();
 
 function tabs1() {
