@@ -242,7 +242,7 @@
     });
   });
   // Set the date we're counting down to
-  var countDownDate = new Date("Nov 1, 2021 23:59:59").getTime();
+  var countDownDate = new Date("Nov 5, 2021 23:59:59").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function () {
@@ -273,16 +273,15 @@
     }
   }, 1000);
 
-  var displayWidth = screen.availWidth;
+  // var displayWidth = screen.availWidth;
 
-  if (displayWidth <= 991) {
-    document.getElementById("speakerLarge").style.display = "none";
-    document.getElementById("speakerSmall").style.display = "block";
-  } else {
-    document.getElementById("speakerLarge").style.display = "block";
-    document.getElementById("speakerSmall").style.display = "none";
-  }
-  console.log(displayWidth);
+  // if (displayWidth <= 991) {
+  //   document.getElementById("speakerLarge").style.display = "none";
+  //   document.getElementById("speakerSmall").style.display = "block";
+  // } else {
+  //   document.getElementById("speakerLarge").style.display = "block";
+  //   document.getElementById("speakerSmall").style.display = "none";
+  // }
 })();
 
 function tabs1() {
