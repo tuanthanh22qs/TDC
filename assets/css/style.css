@@ -1968,9 +1968,9 @@ Our Classes
   padding: 0 10px;
 }
 
-#tabs-1 h5 {
+/* #tabs-1 h5 {
   margin: 10px 0;
-}
+} */
 
 @media screen and (max-width: 760px) {
   .logoBan {
