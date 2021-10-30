@@ -121,7 +121,7 @@ h6 {
   bottom: 0;
   left: calc(50% - 25px);
 } */
-.section-header h2 {
+.section-header__h2 {
   font-size: 36px;
   text-transform: uppercase;
   text-align: center;
@@ -168,13 +168,13 @@ h6 {
   letter-spacing: 3px;
   text-transform: uppercase;
 } */
-#header #logo h1 span {
+/* #header #logo h1 span {
   color: #f82249;
-}
-#header #logo h1 a,
+} */
+/* #header #logo h1 a,
 #header #logo h1 a:hover {
   color: #fff;
-}
+} */
 #header #logo img {
   padding: 0;
   margin: 0;
@@ -1849,9 +1849,10 @@ Our Classes
 .tl-1:before {
   content: "";
   position: absolute;
-  border: 2px solid #fff;
+  border: 2px solid #cbcbcb;
+  background-color: #cbcbcb;
   left: 48%;
-  top: 39%;
+  top: 30%;
   z-index: 0;
   width: 100%;
 }
@@ -2114,6 +2115,12 @@ Our Classes
   }
 
   #speakerSmall {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .item__overlay {
     display: none;
   }
 }
